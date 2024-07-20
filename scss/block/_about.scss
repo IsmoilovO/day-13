@@ -1,0 +1,84 @@
+.about {
+}
+
+.about__title {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #242d52;
+    margin-bottom: 13px;
+}
+
+.about__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    opacity: 0.5;
+    margin-bottom: 54px;
+}
+
+.about__blocks {
+    text-align: center;
+}
+.about__number {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff0ec;
+    width: 100%;
+}
+.about__numbeer {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+
+    color: #fff;
+    background: #f3603c;
+    border-radius: 39px;
+    padding: 8px 26px;
+}
+
+.about__subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #242d52;
+}
+
+.about__desc {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 200%;
+    color: #242d52;
+    opacity: 0.5;
+    margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    .about__block {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
+
+    .about__blocks {
+        text-align: start;
+    }
+
+    .about__number {
+        background-color: #fff;
+    }
+
+    .about__item {
+        margin-bottom: 40px;
+    }
+
+    .about__blocks {
+        width: 445px;
+    }
+}
+
+@media screen and (min-width: 992px);
+ {
+}
